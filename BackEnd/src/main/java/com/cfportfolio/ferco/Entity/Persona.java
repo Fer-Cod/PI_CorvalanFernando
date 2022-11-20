@@ -28,7 +28,7 @@ public class Persona{
     private String apellido;
     
     @Size(min = 1, max = 50, message = "No cumple con la longitud requerida")
-    private String imgagen;
+    private String imagen;
 
     public Long getId() {
         return id;
@@ -55,11 +55,11 @@ public class Persona{
     }
 
     public String getImgagen() {
-        return imgagen;
+        return imagen;
     }
 
-    public void setImgagen(String imgagen) {
-        this.imgagen = imgagen;
+    public void setImagen(String imgagen) {
+        this.imagen = imgagen;
     }
     
     
